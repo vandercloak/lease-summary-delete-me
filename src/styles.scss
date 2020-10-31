@@ -1,0 +1,73 @@
+// Colors. 
+$primaryBlue: #35657d;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.logo {
+  float: left;
+  color: #35657d;
+  margin: 10px 10px 0px 0px;
+}
+.loginProfile {
+  width: 150;
+  height: 31px;
+  background: #b5cfd0;
+  margin: 16px 28px 16px 0;
+  float: right;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.sideNavigation {
+ background: #fafafa;
+}
+.lease-selector {
+  .ant-select-selector {
+     background-color: $primaryBlue !important;
+     color: #ffffff;
+     border-color: #35657d !important;
+     border-radius: 4px !important;
+     float: right !important;
+  }
+  .ant-select-arrow {
+    color: #ffffff
+    }
+  }
+
+ 
+  .ant-tabs-tab {
+    color: #35657d !important; 
+  }
+  .ant-tabs-tab-active {
+    color: #35657d !important; 
+  } .ant-tabs-tab-btn {
+    color: #35657d !important; 
+          }
+  .ant-tabs-ink-bar{
+    background: #35657d !important;
+  }
+        
+.ant-menu :hover {
+  color: black;
+}
+.ant-menu .ant-menu-item-selected {
+color:black;
+background-color: #35657d;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #b5cfd0;
+  opacity: 0.7
+}
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+border-right-color: #35657d;
+}

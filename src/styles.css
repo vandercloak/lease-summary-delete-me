@@ -1,0 +1,23 @@
+
+
+.header {
+  background-color: #fff;
+}
+
+.logo {
+  float: left;
+  color: #35657d;
+  margin: 16px 0px 0px 0;
+}
+.loginProfile {
+  width: 150;
+  height: 31px;
+  background: #fff;
+  margin: 16px 28px 16px 0;
+  float: right;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+

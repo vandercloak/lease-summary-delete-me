@@ -1,0 +1,49 @@
+{
+  "id": 15,
+  "signature": null,
+  "date_created": "2020-06-25T00:12:59.014021+00:00",
+  "date_updated": "2020-06-25T00:12:59.014021+00:00",
+  "date_deleted": null,
+  "allow_pets": true,
+  "allowed_pets": ["dog"],
+  "allow_renewal": true,
+  "allow_rental_increase": true,
+  "allowed_deposit_forms": ["", "B"],
+  "end_date": "2020-06-13",
+  "start_date": "2020-06-11",
+  "extra_pet_charge": null,
+  "late_fee": null,
+  "pet_fee": null,
+  "rent_price": {
+    "amount": 100020,
+    "currency": "usd"
+  },
+  "restrict_pets": true,
+  "security_deposit": {
+    "amount": 100000,
+    "currency": "usd"
+  },
+  "tenant_duties": ["mow"],
+  "term": "monthly",
+  "unit": {
+    "id": 8,
+    "date_created": "2020-06-25T00:12:59.014021+00:00",
+    "date_updated": "2020-06-25T00:12:59.014021+00:00",
+    "date_deleted": null,
+    "property": {
+      "account_id": 29,
+      "date_created": "2020-06-25T00:12:59.014021+00:00",
+      "date_updated": "2020-06-25T00:12:59.014021+00:00",
+      "date_deleted": null,
+      "num_units": 2,
+      "street": "1042 Marcus Dam",
+      "city": "Lake Cora",
+      "state": "MI",
+      "zip": "21282",
+      "__typename": "properties"
+    },
+    "__typename": "units"
+  },
+  "utilities": [""],
+  "__typename": "leases"
+}
